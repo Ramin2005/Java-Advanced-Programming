@@ -1,7 +1,9 @@
-public class test{
-    public static void main(String[] args) {
-        short a = 200;
-        byte b = (byte) a;
+public class test {
+
+    void main() {
+        var a = 2000;
+        var b = a;
         System.out.println(b);
     }
+
 }
