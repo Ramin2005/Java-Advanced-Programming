@@ -60,6 +60,21 @@ public class Array {
         System.out.println("Index of 3: " + index);
 
 
+        // changing reference of an reference value
+        nums_1 = nums_2;
+        // print array elements
+        System.out.print("\nnums_1: ");
+        for (int i = 0; i < nums_1.length; i++)
+            System.out.print(nums_1[i] + " ");
+        System.out.println();
+
+        nums_2[0] = 10;
+        // print array elements
+        System.out.print("\nnums_1: ");
+        for (int i = 0; i < nums_1.length; i++)
+            System.out.print(nums_1[i] + " ");
+        System.out.println();
+
 
         // initializing a n-D array
         int[][] matrix_1 = new int[4][5];
