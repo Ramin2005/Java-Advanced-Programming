@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Array {
     void main() {
         // initializing a 1D array
@@ -30,6 +32,19 @@ public class Array {
             System.out.print(nums_1[i] + " ");
         System.out.println();
 
+        // print array elements
+        System.out.print("\nnums_2: ");
+        for (int i = 0; i < nums_2.length; i++)
+            System.out.print(nums_2[i] + " ");
+        System.out.println();
+
+        Arrays.sort(nums_2);
+        // print array elements
+        System.out.print("nums_2 after sorting: ");
+        for (int i = 0; i < nums_2.length; i++)
+            System.out.print(nums_2[i] + " ");
+        System.out.println();
+
         // initializing a n-D array
         int[][] matrix_1 = new int[4][5];
         int[][][] tensor_1 = new int[3][4][5];
@@ -42,7 +57,7 @@ public class Array {
             }
             System.out.println();
         }
-        
+
         // jagged array
         int[][] nums_3 = { { 1, 2 },
                 { 3, 4, 5 },
