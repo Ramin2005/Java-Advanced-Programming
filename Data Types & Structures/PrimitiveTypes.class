@@ -1,0 +1,13 @@
+// Source code is decompiled from a .class file using FernFlower decompiler (from Intellij IDEA).
+public class PrimitiveTypes {
+   public PrimitiveTypes() {
+   }
+
+   public static void main() {
+      boolean var0 = true;
+      boolean var1 = true;
+      int var2 = Integer.MAX_VALUE;
+      long var3 = 2147483647L;
+      double var5 = 2.65;
+   }
+}
