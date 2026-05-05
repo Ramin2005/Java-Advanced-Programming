@@ -4,7 +4,6 @@ public class Array {
     void main() {
         // initializing a 1D array
         int[] nums_1 = new int[5];
-        int[] nums_2 = { 3, 1, 6, 8 };
         char[] chs = { 'A', 'B', 'C' };
 
         // printing address of an array
@@ -32,18 +31,35 @@ public class Array {
             System.out.print(nums_1[i] + " ");
         System.out.println();
 
+
+
+
+
+        
+        int[] nums_2 = { 3, 1, 6, 8 };
+
         // print array elements
         System.out.print("\nnums_2: ");
         for (int i = 0; i < nums_2.length; i++)
             System.out.print(nums_2[i] + " ");
         System.out.println();
 
+        // sorting an array with arrays class
         Arrays.sort(nums_2);
         // print array elements
         System.out.print("nums_2 after sorting: ");
         for (int i = 0; i < nums_2.length; i++)
             System.out.print(nums_2[i] + " ");
         System.out.println();
+
+        // binary search for sorted arrays
+        int index = Arrays.binarySearch(nums_2, 3);
+        System.out.println("Index of 3: " + index);
+
+        index = Arrays.binarySearch(nums_2, 7);
+        System.out.println("Index of 3: " + index);
+
+
 
         // initializing a n-D array
         int[][] matrix_1 = new int[4][5];
