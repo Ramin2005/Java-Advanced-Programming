@@ -57,7 +57,7 @@ public class Array {
         System.out.println("Index of 3: " + index);
 
         index = Arrays.binarySearch(nums_2, 7);
-        System.out.println("Index of 3: " + index);
+        System.out.println("Index of 7: " + index);
 
 
         // changing reference of an reference value
