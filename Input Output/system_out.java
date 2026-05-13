@@ -71,7 +71,7 @@ public class system_out {
         stop();
         clear();
 
-        // \d -> integer data types
+        // %d -> integer data types
         System.out.println("%d for integer data types:");
         System.out.println("\n(int n: %d) output:");
         System.out.printf("int n: %d", 1024);
